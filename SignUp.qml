@@ -8,6 +8,10 @@ Component {
     RowLayout {
         anchors.centerIn: parent
 
+        TextField {
+            id: text1
+        }
+
         Button {
             id: button1_2
             text: qsTr("Press Me 1_2")
