@@ -1,10 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>SignUp.qml</file>
-        <file>Welcome.qml</file>
-    </qresource>
-    <qresource prefix="/imports">
         <file alias="org/kde/kirigami/qmldir">kirigami/qmldir</file>
         <file alias="org/kde/kirigami/Action.qml">kirigami/Action.qml</file>
         <file alias="org/kde/kirigami/ApplicationWindow.qml">kirigami/ApplicationWindow.qml</file>
