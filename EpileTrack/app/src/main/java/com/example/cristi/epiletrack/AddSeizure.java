@@ -9,6 +9,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -95,13 +97,20 @@ public class AddSeizure extends AppCompatActivity {
 //            actionBar.setDisplayHomeAsUpEnabled(true);
 //        }
         if (actionBar != null) {
-            actionBar.show();
+            actionBar.hide();
         }
 
         mVisible = true;
 //        mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
-
+        Spinner seizureType = (Spinner) findViewById(R.id.spinner);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.seizuretype, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        seizureType.setAdapter(adapter);
 
         // Set up the user interaction to manually show or hide the system UI.
         mContentView.setOnClickListener(new View.OnClickListener() {
