@@ -7,9 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.google.android.gms.plus.PlusOneButton;
-
+import android.widget.Button;
 /**
  * A fragment with a Google +1 button.
  * Activities that contain this fragment must implement the
@@ -18,7 +16,8 @@ import com.google.android.gms.plus.PlusOneButton;
  * Use the {@link PlusOneFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PlusOneFragment extends Fragment {
+public class MyFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,11 +29,13 @@ public class PlusOneFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private PlusOneButton mPlusOneButton;
+    private Button dashboardb1;
+    private Button dashboardb2;
+    private Button dashboardb3;
 
     private OnFragmentInteractionListener mListener;
 
-    public PlusOneFragment() {
+    public MyFragment() {
         // Required empty public constructor
     }
 
@@ -47,8 +48,8 @@ public class PlusOneFragment extends Fragment {
      * @return A new instance of fragment PlusOneFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static PlusOneFragment newInstance(String param1, String param2) {
-        PlusOneFragment fragment = new PlusOneFragment();
+    public static MyFragment newInstance(String param1, String param2) {
+        MyFragment fragment = new MyFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -72,7 +73,10 @@ public class PlusOneFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_plus_one, container, false);
 
         //Find the +1 button
-        mPlusOneButton = (PlusOneButton) view.findViewById(R.id.plus_one_button);
+        dashboardb1 = (Button)view.findViewById(R.id.dashboardButton1);
+        dashboardb2 = (Button)view.findViewById(R.id.dashboardButton2);
+        dashboardb3 = (Button)view.findViewById(R.id.dashboardButton2);
+
 
         return view;
     }
@@ -82,7 +86,7 @@ public class PlusOneFragment extends Fragment {
         super.onResume();
 
         // Refresh the state of the +1 button each time the activity receives focus.
-        mPlusOneButton.initialize(PLUS_ONE_URL, PLUS_ONE_REQUEST_CODE);
+//        dashboardb1.initialize(PLUS_ONE_URL, PLUS_ONE_REQUEST_CODE);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

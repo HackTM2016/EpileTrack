@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dashfragment"
+    tools:context="com.example.cristi.epiletrack.BlankFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seizure"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/buttonBlackColorBackgrounWhite"
+
+            android:src="@drawable/seizure" />
+
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="missed meds"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/buttonBlackColorBackgrounWhite"
+
+            android:foregroundGravity="bottom"
+            android:gravity="bottom"
+            android:src="@drawable/med" />
+
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sleep conditions"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/buttonBlackColorBackgrounWhite"
+            android:src="@drawable/sleep" />
+
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stress"
+            android:id="@+id/stressButton"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/buttonBlackColorBackgrounWhite"
+            android:src="@drawable/stress" />
+    </LinearLayout>
+
+
+</FrameLayout>
