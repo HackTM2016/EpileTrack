@@ -12,5 +12,5 @@ cmake ../ \
 
 make
 make install
-
-echo "Run command: ./src/epiletrack"
+cd ..
+echo "Run command: ./installl_desktop/epiletrack"
