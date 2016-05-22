@@ -1,29 +1,43 @@
 import QtQuick 2.4
+import QtQuick.Controls 1.4
+import QtQuick.Controls.Styles 1.4
 
-Rectangle {
+Item {
+    id: bigButton
 
-    property alias text: text.text
+    property alias text: btn.text
+
+    signal clicked
+
 
     implicitWidth: 200
     implicitHeight: 50
-    border.width: activeFocus ? 2 : 1
-    border.color: "#888"
-    color: "#33B5E5"
-    radius: 4
 
+    Button {
+        id: btn
 
-    MouseArea {
-        anchors.fill: parent
-        onClicked: {
-            color: "#11A3C3"
+        width: parent.width
+        height: parent.height
+
+        style: ButtonStyle {
+            background: Rectangle {
+                border.width: control.activeFocus ? 3 : 1
+                border.color: "#888"
+                color: "#33B5E5"
+                radius: 4
+            }
+            label: Component {
+                Text {
+                    text: btn.text
+                    font.bold: true
+                    font.pointSize: 22
+                    color: "#FFF"
+                    anchors.fill: parent
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                }
+            }
         }
-    }
-
-    Text {
-        id: text
-        anchors.centerIn: parent
-        font.bold: true
-        font.pointSize: 22
-        color: "#FFF"
+        onClicked: bigButton.clicked()
     }
 }
