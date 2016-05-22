@@ -19,7 +19,7 @@ Kirigami.Page {
         Image {
             id: logo
             anchors.horizontalCenter: parent.horizontalCenter
-            source: "qrc:/images/BrainSaladLogo.png"
+            source: "qrc:/images/BrainSaladLogo.svg"
             fillMode: Image.PreserveAspectCrop
             width: parent.width
             height: 50
