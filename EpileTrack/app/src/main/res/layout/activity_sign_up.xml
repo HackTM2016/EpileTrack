@@ -111,10 +111,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/prompt_birthDate"
+                        android:inputType="date"
+                        android:ems="10"
                         android:imeActionId="@+id/signUp"
                         android:imeActionLabel="@string/action_sign_up_short"
                         android:imeOptions="actionUnspecified"
-                        android:inputType="text"
                         android:maxLines="1"
                         android:singleLine="true" />
 
@@ -133,7 +134,7 @@
                         android:imeActionId="@+id/signUp"
                         android:imeActionLabel="@string/action_sign_up_short"
                         android:imeOptions="actionUnspecified"
-                        android:inputType="text"
+                        android:inputType="date"
                         android:maxLines="1"
                         android:singleLine="true" />
 

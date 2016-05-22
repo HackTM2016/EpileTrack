@@ -115,7 +115,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         // while interacting with the UI.
         findViewById(R.id.create).setOnClickListener(this);
         findViewById(R.id.buttonClose_signUp).setOnClickListener(this);
-
+        findViewById(R.id.alreadyHaveAccount).setOnClickListener(this);
     }
 
     @Override
@@ -183,9 +183,13 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                     startActivity(b);
                     break;
 
-                case R.id.buttonClose:
+                case R.id.buttonClose_signUp:
                     Intent c = new Intent(SignUpActivity.this, SplashScreenActivity.class);
                     startActivity(c);
+                    break;
+                case R.id.alreadyHaveAccount:
+                    Intent d = new Intent(SignUpActivity.this, LoginActivity.class);
+                    startActivity(d);
                     break;
 
                 default:
@@ -203,12 +207,12 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         EditText diagnosysDate = (EditText) findViewById(R.id.diagnosticDate);
 
         currentUserDetails = new UserDetails(
-               "",
-                fullname.getText().toString(),
-                email.getText().toString(),
-                password.getText().toString(),
-                birthday.getText().toString(),
-                diagnosysDate.getText().toString()
+                "",
+                fullname!= null ? fullname.getText().toString() : "",
+                email != null ?email.getText().toString() : "",
+                password != null ?password.getText().toString() : "",
+                birthday != null ?birthday.getText().toString() : "",
+                diagnosysDate != null ?diagnosysDate.getText().toString() : ""
         );
     }
 }
