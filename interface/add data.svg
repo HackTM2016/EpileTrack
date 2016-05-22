@@ -27,14 +27,16 @@
 		
 			<line fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="659.333" y1="1141.563" x2="676.667" y2="1118.397"/>
 	</g>
-	
-		<rect x="124.354" y="1146.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
-	
-		<rect x="124.354" y="1106.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
-	
-		<rect x="74.357" y="1146.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
-	
-		<rect x="74.357" y="1103.718" transform="matrix(0.925 0.38 -0.38 0.925 431.9109 49.0873)" fill="#FDFDFE" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.915"/>
+	<g>
+		
+			<rect x="124.354" y="1146.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
+		
+			<rect x="124.354" y="1106.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
+		
+			<rect x="74.357" y="1146.565" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.916"/>
+		
+			<rect x="74.357" y="1103.718" transform="matrix(0.925 0.38 -0.38 0.925 431.9109 49.0873)" fill="#FDFDFE" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.915"/>
+	</g>
 </g>
 <g>
 	<g opacity="0.1">
@@ -57,38 +59,48 @@
 		</g>
 	</g>
 	
-		<text transform="matrix(1 0 0 1 75.8022 519.2461)" opacity="0.1" fill="#3A6297" stroke="#000000" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="48">no data so far, please log some</text>
+		<text transform="matrix(1 0 0 1 75.8022 519.2461)" opacity="0.1" fill="#3A6297" stroke="#000000" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="30">no data so far, please log some</text>
 </g>
-<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="650.952" r="42.385"/>
-<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="756.233" r="42.385"/>
-<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="861.517" r="42.385"/>
-<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.75" cy="970.313" r="42.385"/>
-<text transform="matrix(1 0 0 1 305.9243 982.4902)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="48">stress trigger</text>
-<text transform="matrix(1 0 0 1 305.9248 771.8496)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="48">missed meds</text>
-<text transform="matrix(1 0 0 1 305.9248 875.4902)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="48">sleep conditions</text>
-<text transform="matrix(1 0 0 1 305.9238 665.209)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="48">seizure</text>
-<g id="Dot_2">
-	<g>
-		
-			<ellipse transform="matrix(0.0028 -1 1 0.0028 -698.9074 1207.2755)" fill="#E06E6E" cx="255.866" cy="954.065" rx="5" ry="5.167"/>
+<text transform="matrix(1 0 0 1 305.9243 973.4902)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="30">stress trigger</text>
+<text transform="matrix(1 0 0 1 305.9248 764.9688)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="30">missed meds</text>
+<text transform="matrix(1 0 0 1 305.9248 870.7305)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="30">sleep conditions</text>
+<text transform="matrix(1 0 0 1 305.9238 660.209)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="30">seizure</text>
+<g>
+	<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="650.952" r="42.385"/>
+	<polygon fill="#E5E277" stroke="#3A6297" stroke-miterlimit="10" points="220.61,677.452 234.418,653.526 225.955,653.452 
+		242.955,624.452 252.621,624.452 239.621,647.095 252.621,647.095 	"/>
+</g>
+<g>
+	<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.75" cy="966.313" r="42.385"/>
+	<g id="Dot_2">
+		<g>
+			
+				<ellipse transform="matrix(0.0028 -1 1 0.0028 -694.9075 1203.2866)" fill="#E06E6E" cx="255.866" cy="950.065" rx="5" ry="5.167"/>
+		</g>
 	</g>
-</g>
-<g id="Dot_1">
-	<g>
-		
-			<ellipse transform="matrix(0.0028 -1 1 0.0028 -737.3012 1168.7747)" fill="#E06E6E" cx="217.365" cy="954.065" rx="5" ry="5.166"/>
+	<g id="Dot_1">
+		<g>
+			
+				<ellipse transform="matrix(0.0028 -1 1 0.0028 -733.3013 1164.7858)" fill="#E06E6E" cx="217.365" cy="950.065" rx="5" ry="5.166"/>
+		</g>
 	</g>
+	<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M247.532,949.065c0-4.422,4.622-8,10.333-8"/>
+	<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M225.911,949.063c0-4.422-4.622-8-10.333-8"/>
+	<polygon fill="#E06E6E" stroke="#E06E6E" stroke-miterlimit="10" points="236.616,960.563 241.5,962.731 239.833,967.063 
+		236.616,972.063 233.667,967.231 232,962.897 	"/>
+	<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M218.844,987.946c0.547-5.408,16.564-8.209,35.812-6.264"/>
 </g>
-<polygon fill="#E5E277" stroke="#3A6297" stroke-miterlimit="10" points="220.61,677.452 234.418,653.526 225.955,653.452 
-	242.955,624.452 252.621,624.452 239.621,647.095 252.621,647.095 "/>
-<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M247.532,953.065c0-4.422,4.622-8,10.333-8"/>
-<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M225.911,953.063c0-4.422-4.622-8-10.333-8"/>
-<polygon fill="#E06E6E" stroke="#E06E6E" stroke-miterlimit="10" points="236.616,964.563 241.5,966.731 239.833,971.063 
-	236.616,976.063 233.667,971.231 232,966.897 "/>
-<path fill="none" stroke="#E06E6E" stroke-miterlimit="10" d="M218.844,991.946c0.547-5.408,16.564-8.209,35.812-6.264"/>
-<text transform="matrix(1 0 0 1 208.8662 867.1836)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="48">Z</text>
-<text transform="matrix(1 0 0 1 238.3335 880.4902)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="36">z</text>
-<text transform="matrix(1 0 0 1 256.6987 886.8242)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="18">z</text>
-<line fill="#EF6060" stroke="#53BD8D" stroke-width="16" stroke-miterlimit="10" x1="236.616" y1="725.563" x2="236.616" y2="787.563"/>
-<line fill="#EF6060" stroke="#53BD8D" stroke-width="16" stroke-miterlimit="10" x1="207" y1="756.233" x2="266.333" y2="756.233"/>
+<g>
+	<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="861.517" r="42.385"/>
+	<text transform="matrix(1 0 0 1 208.8662 867.1836)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="48">Z</text>
+	<text transform="matrix(1 0 0 1 238.3335 880.4902)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="36">z</text>
+	<text transform="matrix(1 0 0 1 256.6987 886.8242)" fill="#4D6BAD" font-family="'MyriadPro-Bold'" font-size="18">z</text>
+</g>
+<g>
+	<circle fill="#FDFDFE" stroke="#3A6297" stroke-miterlimit="10" cx="236.616" cy="756.233" r="42.385"/>
+	
+		<line fill="#EF6060" stroke="#53BD8D" stroke-width="16" stroke-miterlimit="10" x1="236.616" y1="725.563" x2="236.616" y2="787.563"/>
+	
+		<line fill="#EF6060" stroke="#53BD8D" stroke-width="16" stroke-miterlimit="10" x1="207" y1="756.233" x2="266.333" y2="756.233"/>
+</g>
 </svg>

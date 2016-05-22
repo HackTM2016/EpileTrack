@@ -39,8 +39,8 @@
 	
 		<rect x="74.357" y="1102.153" transform="matrix(0.925 0.38 -0.38 0.925 431.3161 48.9698)" fill="#FDFDFE" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="34.498" height="29.915"/>
 </g>
-<text transform="matrix(1 0 0 1 69.8022 345)" fill="#3A6297" stroke="#000000" stroke-miterlimit="10" font-family="'Avenir-Book'" font-size="200" letter-spacing="6">0 days</text>
-<text transform="matrix(1 0 0 1 74.8022 413)" fill="#3A6297" stroke="#000000" stroke-miterlimit="10" font-family="'Avenir-Book'" font-size="72" letter-spacing="2">seizure free</text>
+<text transform="matrix(1 0 0 1 69.8022 345)" fill="#3A6297" font-family="'Avenir-Book'" font-size="200" letter-spacing="6">0 days</text>
+<text transform="matrix(1 0 0 1 74.8022 413)" fill="#3A6297" font-family="'Avenir-Book'" font-size="72" letter-spacing="2">seizure free</text>
 <g id="Divider_9_" opacity="0.1">
 	<g>
 		<rect x="59" y="436" fill="#1D1D26" width="632" height="2"/>
@@ -51,5 +51,5 @@
 		<rect x="59.375" y="577" fill="#1D1D26" width="632" height="2"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 74.8022 517)" fill="#3A6297" stroke="#000000" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="48">no data so far, please log some</text>
+<text transform="matrix(1 0 0 1 74.8022 517)" fill="#3A6297" font-family="'MyriadPro-Regular'" font-size="30">no data so far, please log some</text>
 </svg>
