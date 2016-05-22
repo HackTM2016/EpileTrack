@@ -8,6 +8,9 @@
 
     //Splash frame
     <color name="buttonLoginColor">#ffffff</color>
-    <color name="buttonLoginColorBackground">#33b5e5</color>
+    <color name="buttonLoginColorBackground">#1d7899</color>
+
+    <color name="buttonBlackColorBlack">#000000</color>
+    <color name="buttonBlackColorBackgrounWhite">#ffffff</color>
 
 </resources>
