@@ -51,7 +51,7 @@ public class AddSeizure extends AppCompatActivity {
                     | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         }
     };
-    private View mControlsView;
+    //private View mControlsView;
     private final Runnable mShowPart2Runnable = new Runnable() {
         @Override
         public void run() {
@@ -60,7 +60,7 @@ public class AddSeizure extends AppCompatActivity {
             if (actionBar != null) {
                 actionBar.show();
             }
-            mControlsView.setVisibility(View.VISIBLE);
+            //mControlsView.setVisibility(View.VISIBLE);
         }
     };
     private boolean mVisible;
@@ -91,12 +91,15 @@ public class AddSeizure extends AppCompatActivity {
 
         setContentView(R.layout.activity_add_seizure);
         ActionBar actionBar = getSupportActionBar();
+//        if (actionBar != null) {
+//            actionBar.setDisplayHomeAsUpEnabled(true);
+//        }
         if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.show();
         }
 
         mVisible = true;
-        mControlsView = findViewById(R.id.fullscreen_content_controls);
+//        mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
 
 
@@ -111,7 +114,11 @@ public class AddSeizure extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+//        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+
+        if (actionBar != null) {
+            actionBar.show();
+        }
     }
 
     @Override
@@ -149,7 +156,7 @@ public class AddSeizure extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.hide();
         }
-        mControlsView.setVisibility(View.GONE);
+        //mControlsView.setVisibility(View.GONE);
         mVisible = false;
 
         // Schedule a runnable to remove the status and navigation bar after a delay
