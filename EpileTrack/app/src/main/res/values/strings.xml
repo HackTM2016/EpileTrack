@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EpileTrack</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="epile_track">EpileTrack</string>
+    <string name="epile_track_by">by</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="bs">bs</string>
+</resources>
