@@ -109,5 +109,5 @@
     <string-array name="seizuretype">
         <item>Absence</item>
         <item>Convultions</item>
-    </string-array> 
+    </string-array>
 </resources>

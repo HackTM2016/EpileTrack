@@ -125,6 +125,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         findViewById(R.id.dashboardButton1).setOnClickListener(this);
         findViewById(R.id.dashboardButton2).setOnClickListener(this);
         findViewById(R.id.dashboardButton3).setOnClickListener(this);
+        findViewById(R.id.seizure).setOnClickListener(this);
 
         Intent intent = getIntent();
 
@@ -208,6 +209,10 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
             case R.id.settings_dashboard:
                 Intent a = new Intent(DashboardActivity.this, SettingsActivity.class);
                 startActivity(a);
+                break;
+            case R.id.seizure:
+                Intent b = new Intent(DashboardActivity.this, AddSeizure.class);
+                startActivity(b);
                 break;
             default:
                 break;
