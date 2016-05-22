@@ -95,7 +95,7 @@ public class AddSeizure extends AppCompatActivity {
 //            actionBar.setDisplayHomeAsUpEnabled(true);
 //        }
         if (actionBar != null) {
-            actionBar.show();
+            actionBar.hide();
         }
 
         mVisible = true;
