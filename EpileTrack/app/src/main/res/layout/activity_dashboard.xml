@@ -1,0 +1,142 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/buttonBlackColorBackgrounWhite"
+    tools:context="com.example.cristi.epiletrack.DashboardActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/buttonBlackColorBackgrounWhite"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="wrap_content"
+                android:text="b1"
+                android:id="@+id/dashboardButton1"
+                android:textColor="@color/buttonLoginColor"
+                android:background="@color/buttonLoginColorBackground"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left|center_horizontal" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="wrap_content"
+                android:text="b2"
+                android:id="@+id/dashboardButton2"
+                android:textColor="@color/buttonLoginColor"
+                android:background="@color/buttonLoginColorBackground"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="wrap_content"
+                android:text="b3"
+                android:id="@+id/dashboardButton3"
+                android:textColor="@color/buttonLoginColor"
+                android:background="@color/buttonLoginColorBackground"
+                android:layout_width="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settings_dashboard"
+                android:layout_gravity="left|top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:layout_weight="1"
+                android:id="@+id/seizureFreeDays"
+                android:layout_gravity="center_horizontal|top" />
+
+            <LinearLayout
+                android:id="@+id/addPanel"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="465dp"
+                android:layout_gravity="top|bottom|center_horizontal"
+                android:gravity="bottom"
+                android:foregroundGravity="bottom"
+                android:layout_marginBottom="40dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="seizure"
+                    android:id="@+id/seizure"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/buttonBlackColorBackgrounWhite"
+                    android:layout_weight="1"
+                    android:src="@drawable/seizure" />
+
+                <ImageButton
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="missed meds"
+                    android:id="@+id/meds"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/buttonBlackColorBackgrounWhite"
+                    android:layout_weight="1"
+                    android:foregroundGravity="bottom"
+                    android:gravity="bottom"
+                    android:src="@drawable/med" />
+
+                <ImageButton
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sleep conditions"
+                    android:id="@+id/sleep"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/buttonBlackColorBackgrounWhite"
+                    android:src="@drawable/sleep" />
+
+                <ImageButton
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="stress"
+                    android:layout_weight="1"
+                    android:id="@+id/stressButton"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/buttonBlackColorBackgrounWhite"
+                    android:src="@drawable/stress" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

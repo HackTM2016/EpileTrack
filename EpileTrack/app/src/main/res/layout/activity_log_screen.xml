@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.example.cristi.epiletrack.LogScreenActivity">
+    tools:context=".SplashScreenActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -11,6 +11,8 @@
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
+
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,6 +27,8 @@
             android:background="@color/black_overlay"
             android:orientation="vertical"
             tools:ignore="UselessParent">
+
+
 
         <TextView
             android:id="@+id/fullscreen_content"
@@ -59,7 +63,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView"
+                    android:id="@+id/logo"
                     android:src="@drawable/brain"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
@@ -67,9 +71,8 @@
 
             </FrameLayout>
 
-
             <LinearLayout
-                android:id="@+id/fullscreen_content_controls"
+                android:id="@+id/fullscreen_content_controls2"
                 style="?metaButtonBarStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,27 +86,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/login"
-                    android:id="@+id/button"
+                    android:id="@+id/button3"
                     android:textSize="50sp"
                     android:textColor="@color/buttonLoginColor"
                     android:background="@color/buttonLoginColorBackground"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
+                    android:padding="5dp"
                     android:layout_alignParentBottom="true"/>
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/sign_up"
-                    android:id="@+id/button2"
+                    android:id="@+id/button4"
                     android:textSize="50sp"
                     android:layout_margin="10dp"
+                    android:padding="5dp"
                     android:textColor="@color/buttonLoginColor"
                     android:background="@color/buttonLoginColorBackground"
                     android:layout_gravity="center"
                     android:layout_alignParentBottom="true"/>
             </LinearLayout>
-        </LinearLayout>
+
+    </LinearLayout>
     </FrameLayout>
 
 </FrameLayout>
